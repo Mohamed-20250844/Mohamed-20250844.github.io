@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Add Course</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./stylee.css?v=1">
-</head>
+    <head>
+        <title>Add Course</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./stylee.css?v=1">
+    </head>
 <body>
-<header>
-<nav>
-<a href="index.html">Home</a>
-<a href="my_courses.html">My Courses</a>
-<a href="add_course.html">Add Courses</a>
-<a href="contact_us.html">Contact us</a>
-</nav>
-</header>
-<main>
-<section>
-<h2>Add course</h2>
-<form method="get" action="add_course.html">
-Course Name:<br><select name="course_name">
-<option value='pl'>programing languages (PL)</option>
-<option value='statistics'>Statistics</option>
-<option value='physics'>Physics</option>
-</select>
-<br><br>
-Instructor:
-<br><input type="text" name="instructor" value="" placeholder=" EX: Dr / Mark ">
-<br><br>Credit Hours:<br><select name="credit_hours">
-<option value='2'>2</option>
-<option value='3'>3</option>
-</select>
-<br><br>Notes:<br><textarea name="notes" placeholder="Enter any additional notes here"></textarea>
-<br><br><br><input type='submit' value="Submit">
-</form>
-</section>
-</main>
-<footer>Mohamed Ahmed Aly Mohamed ALy - FE20250844</footer>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="my_courses.html">My Courses</a>
+            <a href="add_course.html">Add Courses</a>
+            <a href="contact_us.html">Contact us</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Add course</h2>
+            <form method="get" action="add_course.html">
+                Course Name:<br><select name="course_name">
+                <option value='pl'>programing languages (PL)</option>
+                <option value='statistics'>Statistics</option>
+                <option value='physics'>Physics</option>
+                </select>
+                <br><br>
+                Instructor:
+                <br><input type="text" name="instructor" value="" placeholder=" EX: Dr / Mark ">
+                <br><br>Credit Hours:<br><select name="credit_hours">
+                <option value='2'>2</option>
+                <option value='3'>3</option>
+                </select>
+                <br><br>Notes:<br><textarea name="notes" placeholder="Enter any additional notes here"></textarea>
+                <br><br><br><input type='submit' value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <span class="footer-left">Personal Course Organizer</span>
+        <span class="footer-right">Built by : <b>"Mohamed Ahmed"</b> (ID: 20250844)</span>
+    </footer>
 </body>
 </html>
